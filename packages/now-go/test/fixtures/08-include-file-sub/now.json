@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "public": true,
   "builds": [
     {
       "src": "index.go",
-      "use": "@now/go",
+      "use": "@now/go@canary",
       "config": {
         "includeFiles": ["templates/**"]
       }
