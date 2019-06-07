@@ -5,6 +5,6 @@ import (
 )
 
 func FileContent() (string, error) {
-	bts, err := ioutil.ReadFile("foo.txt")
+	bts, err := ioutil.ReadFile("templates/foo.txt")
 	return string(bts), err
 }
